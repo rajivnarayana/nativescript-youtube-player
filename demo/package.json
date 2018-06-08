@@ -1,11 +1,17 @@
 {
   "nativescript": {
-    "id": "org.nativescript.demo"
+    "id": "org.nativescript.demo",
+    "tns-android": {
+      "version": "4.0.1"
+    },
+    "tns-ios": {
+      "version": "4.0.1"
+    }
   },
   "dependencies": {
     "nativescript-theme-core": "^1.0.4",
     "nativescript-unit-test-runner": "^0.3.4",
-    "nativescript-yourplugin": "../src",
+    "nativescript-youtube-player": "../src",
     "tns-core-modules": "^4.1.0"
   },
   "devDependencies": {

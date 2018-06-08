@@ -1,6 +1,12 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="page"
-  xmlns:ui="nativescript-yourplugin">
-  <StackLayout class="p-20">
-    <Label text="{{ message }}" class="t-20 text-center c-black" textWrap="true"/>
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page"
+  xmlns:ui="nativescript-youtube-player">
+  <StackLayout>
+    <ui:YoutubePlayer 
+      src="4JxIye6t0D0" 
+      apiKey="AIzaSyCDH3BGQZT2ebUfSE8D3I8NLqaCPu4FRh0"
+      loaded="onPlayerUILoaded"
+      backgroundColor="gray"
+    ></ui:YoutubePlayer>
+    <Button text="Buy Now"></Button>
   </StackLayout>
 </Page>
